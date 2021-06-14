@@ -1,0 +1,23 @@
+{
+  "name": "RESTapi-Starter-Template-NodeJs-Express-Winston_Logging-Jithin_Joseph",
+  "version": "1.0.0",
+  "description": "A starter template for implementing Rest Api with NodeJs-Express-Winston_Logger - Jithin Joseph",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET NODE_ENV=development&& SET PORT=3050 && nodemon index.js",
+    "prod": "SET NODE_ENV=production&& SET PORT=3050 && node index.js",
+    "start": "SET PORT=3050 && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
